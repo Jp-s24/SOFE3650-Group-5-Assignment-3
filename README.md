@@ -13,7 +13,7 @@ Saaransh Sharma - 100701820
 
 1. **Exercise 1**
 2. **Exercise 2**
-    1. [Views Interface](/src/com/company/Views.java)
+    1. [View Interface](/src/com/company/View.java)
 4. **Exercise 3**
 5. **Exercise 4**
     
