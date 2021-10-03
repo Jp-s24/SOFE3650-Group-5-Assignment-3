@@ -11,10 +11,11 @@ Saaransh Sharma - 100701820
 
 # Table of Contents
 
-1. [**Exercise 1**](/src/)
-2. [**Exercise 2**](/src/)
-3. [**Exercise 3**](/src/)
-4. [**Exercise 4**](/src/)
+1. **Exercise 1**
+2. **Exercise 2**
+    1. [Views Interface](/src/com/company/Views.java)
+4. **Exercise 3**
+5. **Exercise 4**
     
 <!--- 2. **Interfaces**
     1. [IphoneFactory](/src/com/company/IphoneFactory.java)
