@@ -1,15 +1,15 @@
 package com.company;
 
-public class Keyboard {
+public class CashScanner {
 
     private final CashRegister cash;
 
-    public Keyboard(CashRegister cash) {
+    public CashScanner(CashRegister cash) {
         this.cash = cash;
     }
 
-    public void setUPCCode(String UPCCode){
+    public void scannedUPCCode(String UPCCode){
+
         cash.setCurrentProductUPCCode(UPCCode);
     }
-
 }
