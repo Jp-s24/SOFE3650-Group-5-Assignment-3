@@ -19,15 +19,19 @@ public class CashRegister {
     }
 
 
+    // keyboard and scanner use this method to pass UPC code to cash register
     public void setCurrentProductUPCCode(String UPCCode){
         this.currentUPC = UPCCode;
     }
 
+
+    // Calls upon display and ticket printer to display text
     public void getCurrentProductInfo(){
 
         String output = db.GetProductInfo(this.currentUPC);
         display.displayText(output);
         ticketPrinter.displayText(output);
+
     }
 
 }
