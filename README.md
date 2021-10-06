@@ -11,7 +11,7 @@ Saaransh Sharma - 100701820
 
 # Table of Contents
 
-1. [**Exercise 1**](//com/company/View.java)
+1. [**Exercise 1**](Exercise 1/com/company/)
 2. [**Exercise 2**]()
 4. [**Exercise 3**]()
 5. [**Exercise 4**]()
