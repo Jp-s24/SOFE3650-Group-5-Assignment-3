@@ -2,7 +2,7 @@ package com.company;
 
 public class CashRegister {
 
-    public void setCurrentProductUPCCode(){
+    public void setCurrentProductUPCCode(String UPCCode){
 
     }
 

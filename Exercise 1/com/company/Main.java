@@ -16,13 +16,11 @@ public class Main {
 
             if(input == 1){
                 System.out.println("f");
-                break;
+                input=3;
             }else if (input == 2){
                 System.out.println("e");
-                break;
-            }else if (input == 3){
-                break;
-            }else {
+                input=3;
+            }else{
                 System.out.println("Invalid entry");
 
             }

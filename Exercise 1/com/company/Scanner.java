@@ -2,7 +2,7 @@ package com.company;
 
 public class Scanner {
 
-    public void scannedUPCCode(){
+    public void scannedUPCCode(String UPCCode){
 
 
 
