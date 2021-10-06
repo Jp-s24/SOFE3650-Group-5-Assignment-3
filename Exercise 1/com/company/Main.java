@@ -6,10 +6,12 @@ public class Main {
     public static void main(String[] args) {
 
         //objects
+
         Display display = new Display();
         TicketPrinter ticketPrinter = new TicketPrinter();
         CashRegister cashRegister = new CashRegister(display, ticketPrinter);
         Keyboard keyboard = new Keyboard(cashRegister);
+        CashScanner cashScanner = new CashScanner(cashRegister);
 
         //Variables
         String manual;
@@ -28,7 +30,9 @@ public class Main {
             // Scanner method
             if(input == 1){
 
-                System.out.println("f");
+                System.out.println("Please scan UPC code for product: ");
+                manual = sc.next();
+                cashScanner.scannedUPCCode(manual);
             }
             // Keyboard method
             else if (input == 2) {
@@ -39,28 +43,12 @@ public class Main {
 
             // Faisal method
             }
-            else if (input == 3) {
-                break;
-            }
             else {
 
                 System.out.println("Invalid entry");
                 continue;
             }
-
             cashRegister.getCurrentProductInfo();
-
         }while (input!=3);
-
-
-
-
-
-
-
-
-
-
-
     }
 }
