@@ -10,6 +10,7 @@ public class CashRegister {
     private final TicketPrinter ticketPrinter;
     private Scanner scan;
 
+    // constructor for CashRegister
     public CashRegister(Display display, TicketPrinter ticketPrinter) {
         currentUPC = "";
         scan = new Scanner(System.in);

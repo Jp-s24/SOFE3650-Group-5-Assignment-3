@@ -18,10 +18,9 @@ public class Main {
 
         // Scanner object
         Scanner sc = new Scanner(System.in);
-        int input;
+        int input = 0;
 
-        do {
-
+        while(input != 3){
             System.out.println("Select an input:" + "\n" + "Enter 1 for Scanner" + "\n" + "Enter 2 for Keyboard" +
                     "\n" + "Enter 3 to exit");
 
@@ -40,8 +39,10 @@ public class Main {
                 System.out.println("Please enter UPC code for product: ");
                 manual = sc.next();
                 keyboard.setUPCCode(manual);
-
-            // Faisal method
+            }
+            else if (input == 3) {
+                    break;
+            // Not a valid entry try again
             }
             else {
 
@@ -49,6 +50,6 @@ public class Main {
                 continue;
             }
             cashRegister.getCurrentProductInfo();
-        }while (input!=3);
+        }
     }
 }

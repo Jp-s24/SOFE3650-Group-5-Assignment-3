@@ -2,7 +2,6 @@ package com.company;
 
 public class ProductDB {
 
-
     public String GetProductInfo(String upcCode){
 
         return switch (upcCode) {
